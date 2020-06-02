@@ -1,0 +1,74 @@
+@media (max-width: 1200px) and  (-webkit-min-device-pixel-ratio:1){
+    //登录
+    .site-wrapper.site-page--login .brand-info{
+        margin-top: 0px !important;
+    }
+}
+.phone-table{display: none;}
+.no-data{display: block;margin: 200px auto;}
+@media (max-width: 768px) and (-webkit-min-device-pixel-ratio:1){
+    .el-col-3,.el-col-4,.el-col-5,.el-col-6,.el-col-7,.el-col-8,.el-col-9,.el-col-10,.el-col-11,.el-col-12{width: 100%;}
+    .el-message-box{    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;}
+//  .el-table{display: none;}
+    .show-table{display: block;}
+    //后台
+    .site-navbar__header,.site-sidebar--dark{
+        display: none;
+    }
+    .site-sidebar--fold{
+       .site-navbar__header, .site-sidebar--dark{
+        display: block;
+    }
+    }
+    .site-content > .el-tabs > .el-tabs__header{left: 0;}
+    .site-navbar__body,.site-content__wrapper{margin-left: 0;}
+    .el-dialog__header{
+            position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    }
+    .el-dialog{
+            margin-top: 5px !important;
+    width: 99%;
+    position: relative;
+    padding-top: 55px;
+    height: 97%;
+    overflow: auto;
+    }
+    .order-info{
+        height: 100%;
+        box-sizing: border-box;
+    }
+    .withdraw-customize{overflow: auto;height: 100%;}
+    .mechant-dialog{
+        box-shadow: 1px 1px 1px 1px #000;
+        .el-dialog{margin-top: 10% !important;}
+        .el-dialog__header{background: #fff;}
+        .el-dialog{background: transparent;}
+    }
+    .site-sidebar--fold .site-navbar__body, .site-sidebar--fold .site-content__wrapper{padding-right: 0;}
+    .phone-dialog{
+        .el-col-4{width: 33%;margin-bottom: 10px;}
+    }
+    .phone-table{display: block;
+    .tr{margin-bottom: 20px;    background: #f1f4f5;
+    &:last-child{border-bottom: none;}
+    }
+    .div{border-bottom: 1px solid #d1d1d1;line-height: 30px;padding: 0 5px;}
+    .span{display: inline-block;vertical-align: top;overflow: hidden;}
+    .content{    display: inline-block;
+    vertical-align: top;text-align: right;float: right;}
+}
+.withdraw-coin-box{ 
+    .el-dialog{width: 99%;}
+    .el-dialog__body{padding: 30px 0;}
+    .el-input,.el-input--medium .el-input__inner,.has-coin {
+      width: 150px;
+    }
+    }
+}

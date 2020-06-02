@@ -1,0 +1,11 @@
+.en{
+//  .el-submenu .el-menu-item{padding: 0 10px !important;}
+    .site-sidebar .el-menu-item span{    width: 164px;
+    word-break: break-word;
+    white-space: normal;
+    line-height: 16px;
+    display: inline-block;}
+    .force-word{
+        .el-form-item__label{line-height: 18px;}
+    }
+}
